@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes App</title>
+    <link rel="icon" href="asset/icon.svg" />
+
+    <!-- Own Styles -->
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <app-bar></app-bar>
+    <main>
+        <note-search placeholder-text="Search"></note-search>
+        <note-form data-form-type="Add Note"></note-form>
+        <note-list></note-list>
+    </main>
+    <footer-bar></footer-bar>
+
+    <!-- Own Script -->
+    <script defer src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script defer src="script/main.js" type="module"></script>
+</body>
+</html>
